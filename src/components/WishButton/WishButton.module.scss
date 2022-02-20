@@ -1,0 +1,24 @@
+.button{
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    outline: none;
+    transition: var(--transition-default);
+}
+.button:hover{
+    background: var(--color-bg-shade);
+}
+.button svg{
+    fill: var(--color-sky-blue);
+    transition: var(--transition-default);
+}
+.button:hover svg{
+    fill: var(--color-section-hover);
+}

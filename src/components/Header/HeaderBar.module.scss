@@ -1,0 +1,30 @@
+.header_bar{
+    background: var(--color-violet);
+    width: 100%;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F1F1F1;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+}
+.contacts a{
+    font-size: 16px;
+    line-height: 19px;
+    color: #F1F1F1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.contacts svg{
+    margin-right: 10px;
+}
+.contacts a:first-child{
+    margin-right: 48px;
+}

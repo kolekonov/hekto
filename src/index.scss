@@ -1,0 +1,99 @@
+@import-normalize;
+
+
+
+:root{
+    // colors
+    --color-violet: #7E33E0;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-accent: #FB2E86;
+    --color-text: #151875;
+    --color-section-hover: #2F1AC4;
+    --color-bg-shade: #EEEFFB;
+    --color-sky-blue: #00C1FE;
+    --color-bg-gray: #F6F7FB;
+
+
+    // transitions
+    --transition-default: 0.5s;
+
+    //fonts
+    --font-lato: 'Lato', sans-serif;
+    --font-josefin: 'Josefin Sans', sans-serif;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("./assets/fonts/Lato/Lato-Regular.ttf") format("ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("./assets/fonts/Lato/Lato-Bold.ttf") format("ttf");
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("./assets/fonts/JosefinSans/JosefinSans-Regular.ttf") format("ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("./assets/fonts/JosefinSans/JosefinSans-Bold.ttf") format("ttf");
+    font-weight: bold;
+}
+
+
+
+// Временно
+
+// .menu li a{
+//     text-decoration: none;
+//     color: var(--color-black);
+//     transition: var(--transition-default);
+// }
+// .menu li a:hover,
+// .menu li a.active{
+//     color: var(--color-accent);
+// }
+
+
+
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+h1,
+h2,
+h3,
+p{
+    padding: 0;
+    margin: 0;
+}
+
+// Заголовки
+h2{
+    font-family: var(--font-josefin);
+    font-size: 42px;
+    line-height: 49px;
+    color: var(--color-text);
+    text-align: center;
+}
