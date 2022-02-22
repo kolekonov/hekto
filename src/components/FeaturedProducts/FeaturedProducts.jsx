@@ -40,7 +40,6 @@ const products = [
         article: 'Y523201',
         price: 48.00,
     },
-
 ];
 
 
